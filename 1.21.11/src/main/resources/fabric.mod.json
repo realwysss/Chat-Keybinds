@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "chkb",
+	"version": "${version}",
+	"name": "Chat Keybinds",
+	"description": "up to 4 keys that send a chat message or command. set them with /chatkey <1-4> <message>, bind the keys in controls.",
+	"authors": ["realwysss"],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/chkb/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.chkb.Chkb"]
+	},
+	"depends": {
+		"fabric-api": "*",
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.21 <1.22",
+		"java": ">=21"
+	}
+}
